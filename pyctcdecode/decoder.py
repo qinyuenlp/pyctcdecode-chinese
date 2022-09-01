@@ -440,8 +440,8 @@ class BeamSearchDecoderCTC:
                         new_beams.append(
                             (
                                 text,
-                                next_word,
-                                word_part + char,
+                                char,
+                                "",
                                 char,
                                 text_frames,
                                 new_part_frames,
